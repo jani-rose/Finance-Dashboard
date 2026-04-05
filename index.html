@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Finance Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<h1>Finance Dashboard</h1>
+<button id="themeToggle"> Dark Mode</button>
+<!-- Summary Cards -->
+<div class="cards">
+<div class="card">
+<h3>Total Balance</h3>
+<p id="totalBalance">₹0</p>
+</div>
+<div class="card">
+<h3>Income</h3>
+<p id="totalIncome">₹0</p>
+</div>
+<div class="card">
+<h3>Expenses</h3>
+<p id="totalExpenses">₹0</p>
+</div>
+</div>
+<!-- Charts -->
+<div class="charts">
+<canvas id="lineChart"></canvas>
+<canvas id="pieChart"></canvas>
+</div>
+<br>
+<!-- Role -->
+<label>Role:</label>
+<select id="roleSelect">
+<option value="viewer">Viewer</option>
+<option value="admin">Admin</option>
+</select>
+<button id="addBtn">Add Transaction</button>
+<!-- Form -->
+<div id="formContainer">
+<input type="date" id="dateInput">
+<input type="number" id="amountInput" placeholder="Amount">
+<input type="text" id="categoryInput" placeholder="Category">
+<select id="typeInput">
+<option value="income">Income</option>
+<option value="expense"> Expense</option>
+</select>
+<button id="saveBtn">Save</button>
+</div>
+<br>
+<!-- Search -->
+<input type="text" id="searchInput"placeholder="Search category">
+<select id="filterType">
+<option value="all">All</option>
+<option value="income">Income</option>
+<option value="expense">Expense</option>
+</select>
+<br><br>
+<!-- Table -->
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Amount</th>
+<th>Category</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody id="tableBody"></tbody>
+</table>
+<br>
+<!-- Insights -->
+<div id="insights"></div>
+<script src="transactions.js"></script>
+<script src="charts.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
