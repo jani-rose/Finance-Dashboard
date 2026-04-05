@@ -93,5 +93,3 @@ Automatically generates useful observations:
 
 Transactions are saved using:
 
-```javascript
-localStorage
