@@ -1,11 +1,11 @@
-# 💰 Finance Dashboard UI
+# Finance Dashboard UI
 
-A clean and interactive **Finance Dashboard UI** built using **HTML, CSS, and JavaScript**.  
+A clean and interactive Finance Dashboard UI built using HTML, CSS, and JavaScript.  
 This project simulates a simple financial tracking dashboard that allows users to view summaries, explore transactions, and understand spending patterns.
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
 This dashboard demonstrates how financial data can be visualized and managed on the frontend using mock data.
 
@@ -19,13 +19,13 @@ The interface allows users to:
 - Toggle dark mode
 - Persist data using local storage
 
-The project focuses on **UI structure, data handling, and user interaction**, rather than backend integration.
+The project focuses on UI structure, data handling, and user interaction rather than backend integration.
 
 ---
 
-# 🚀 Features
+# Features
 
-## 📊 Dashboard Overview
+## Dashboard Overview
 
 - Total Balance summary card
 - Total Income summary card
@@ -35,40 +35,41 @@ The project focuses on **UI structure, data handling, and user interaction**, ra
 
 ---
 
-## 📋 Transactions Section
+## Transactions Section
 
-- Displays transaction list including:
-  - Date
-  - Amount
-  - Category
-  - Type (Income / Expense)
+Displays transaction list including:
+
+- Date  
+- Amount  
+- Category  
+- Type (Income / Expense)
 
 Supports:
 
-- 🔍 Search by category
-- 🎯 Filter by transaction type
-- 🔽 Sort transactions by amount
-- ➕ Add new transactions (Admin only)
+- Search by category
+- Filter by transaction type
+- Sort transactions by amount
+- Add new transactions (Admin only)
 
 ---
 
-## 👤 Role-Based UI
+## Role-Based UI
 
 Role switching is simulated using a dropdown.
 
-### Viewer Role:
+### Viewer Role
 
 - Can view dashboard data
 - Cannot add transactions
 
-### Admin Role:
+### Admin Role
 
 - Can add new transactions
 - Dashboard updates dynamically
 
 ---
 
-## 📈 Insights Section
+## Insights Section
 
 Automatically generates useful observations:
 
@@ -78,17 +79,17 @@ Automatically generates useful observations:
 
 ---
 
-## 🎨 UI / UX Features
+## UI and UX Features
 
 - Clean card-based layout
 - Responsive design for smaller screens
 - Dark mode toggle
-- Smooth layout spacing
 - Clear visual hierarchy
+- Organized layout spacing
 
 ---
 
-## 💾 Data Persistence
+## Data Persistence
 
 Transactions are saved using:
 
