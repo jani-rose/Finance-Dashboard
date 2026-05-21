@@ -40,6 +40,10 @@ A responsive finance dashboard built using HTML, CSS, JavaScript, and Chart.js t
 ### Dark Mode
 ![Dark Mode](assets/screenshots/darkmode.png)
 
+## Live Demo
+
+https://6a0eb6cd8cf31423ec34b36b--zesty-caramel-0345a8.netlify.app/
+
 ## Author
 
 Jani Rose Lawwellman
