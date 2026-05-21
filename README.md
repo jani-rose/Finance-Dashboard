@@ -22,17 +22,6 @@ A responsive finance dashboard built using HTML, CSS, JavaScript, and Chart.js t
 - Chart.js
 - Local Storage API
 
-## Screenshots
-
-### Dashboard Overview
-(Add screenshot here)
-
-### Expense Distribution Chart
-(Add screenshot here)
-
-### Dark Mode
-(Add screenshot here)
-
 ## Future Improvements
 
 - Backend integration
