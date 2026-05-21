@@ -29,6 +29,17 @@ A responsive finance dashboard built using HTML, CSS, JavaScript, and Chart.js t
 - Database connectivity
 - Export financial reports
 
+## Screenshots
+
+### Dashboard Overview
+![Dashboard](assets/screenshots/dashboard.png)
+
+### Charts & Analytics
+![Charts](assets/screenshots/charts.png)
+
+### Dark Mode
+![Dark Mode](assets/screenshots/darkmode.png)
+
 ## Author
 
 Jani Rose Lawwellman
