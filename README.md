@@ -42,7 +42,7 @@ A responsive finance dashboard built using HTML, CSS, JavaScript, and Chart.js t
 
 ## Live Demo
 
-https://6a0eb6cd8cf31423ec34b36b--zesty-caramel-0345a8.netlify.app/
+https://finance-dashboard-ui-withdarkmode.netlify.app/
 
 ## Author
 
