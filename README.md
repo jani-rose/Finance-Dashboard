@@ -89,7 +89,4 @@ Automatically generates useful observations:
 
 ---
 
-## Data Persistence
-
-Transactions are saved using:
 
