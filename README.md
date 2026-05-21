@@ -1,92 +1,45 @@
 # Finance Dashboard UI
 
-A clean and interactive Finance Dashboard UI built using HTML, CSS, and JavaScript.  
-This project simulates a simple financial tracking dashboard that allows users to view summaries, explore transactions, and understand spending patterns.
+A responsive finance dashboard built using HTML, CSS, JavaScript, and Chart.js to simulate personal finance management and data visualization.
 
----
+## Features
 
-# Project Overview
-
-This dashboard demonstrates how financial data can be visualized and managed on the frontend using mock data.
-
-The interface allows users to:
-
-- View financial summaries
-- Explore transaction history
-- Filter and search transactions
-- Add new transactions (Admin role)
-- View spending insights
-- Toggle dark mode
-- Persist data using local storage
-
-The project focuses on UI structure, data handling, and user interaction rather than backend integration.
-
----
-
-# Features
-
-## Dashboard Overview
-
-- Total Balance summary card
-- Total Income summary card
-- Total Expenses summary card
-- Line chart showing balance trend (time-based visualization)
-- Pie chart showing spending distribution (categorical visualization)
-
----
-
-## Transactions Section
-
-Displays transaction list including:
-
-- Date  
-- Amount  
-- Category  
-- Type (Income / Expense)
-
-Supports:
-
-- Search by category
-- Filter by transaction type
-- Sort transactions by amount
-- Add new transactions (Admin only)
-
----
-
-## Role-Based UI
-
-Role switching is simulated using a dropdown.
-
-### Viewer Role
-
-- Can view dashboard data
-- Cannot add transactions
-
-### Admin Role
-
-- Can add new transactions
-- Dashboard updates dynamically
-
----
-
-## Insights Section
-
-Automatically generates useful observations:
-
-- Highest spending category
-- Monthly expense comparison
-- Spending pattern insights
-
----
-
-## UI and UX Features
-
-- Clean card-based layout
-- Responsive design for smaller screens
+- Financial summary cards for balance, income, and expenses
+- Interactive charts using Chart.js
+- Transaction search and filtering
+- Role-based UI simulation (Admin/Viewer)
+- Add transaction functionality
+- Spending insights generation
 - Dark mode toggle
-- Clear visual hierarchy
-- Organized layout spacing
+- Local storage data persistence
+- Responsive design for multiple screen sizes
 
----
+## Technologies Used
 
+- HTML
+- CSS
+- JavaScript
+- Chart.js
+- Local Storage API
 
+## Screenshots
+
+### Dashboard Overview
+(Add screenshot here)
+
+### Expense Distribution Chart
+(Add screenshot here)
+
+### Dark Mode
+(Add screenshot here)
+
+## Future Improvements
+
+- Backend integration
+- Authentication system
+- Database connectivity
+- Export financial reports
+
+## Author
+
+Jani Rose Lawwellman
